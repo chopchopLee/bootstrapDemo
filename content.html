@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Bootstrap Demo</title>
+		<!-- 新 Bootstrap4 核心 CSS 文件 -->
+	<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.1.0/css/bootstrap.min.css">
+
+	<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+	<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+
+	<!-- popper.min.js 用于弹窗、提示、下拉菜单 -->
+	<script src="https://cdn.bootcss.com/popper.js/1.12.5/umd/popper.min.js"></script>
+
+	<!-- 最新的 Bootstrap4 核心 JavaScript 文件 -->
+	<script src="https://cdn.bootcss.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+	<style>
+		body{
+			position: relative;
+		}
+		ul.nav{
+			position: fixed;
+			top: 20px;
+		}
+		div.col-8 div{
+			height: 700px;
+		}
+	</style>
+</head>
+<body data-spy="scroll" data-target="#myscroll" data-offset="50">
+	<div class="container-fluid">
+		<div class="row">
+	<nav id="myscroll" class="col-sm-3 col-4">
+		<ul class="nav nav-pills flex-column">
+			<li class="nav-item">
+				<a href="#navone" class="nav-link">navone</a>
+			</li>
+			<li class="nav-item">
+				<a href="#navtwo" class="nav-link">navtwo</a>
+			</li>
+			<li class="nav-item dropdown">
+				<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">navthree</a>
+				<div class="dropdown-menu">
+					<a href="#navthreeone" class="dropdown-item">one</a>
+					<a href="#navthreetwo" class="dropdown-item">two</a>
+					<a href="#navthreethree" class="dropdown-item">three</a>
+				</div>
+			</li>
+		</ul>
+	</nav>
+	<div class="col-sm-9 col-8">
+	<div id="navone" class="bg-warning" style="padding:80px;">
+		  <h1>Section 1</h1>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+	</div>
+
+	<div id="navtwo" class="bg-info" style="padding:80px;">
+		  <h1>Section 2</h1>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+	</div>
+
+	<div id="navthreeone" class="bg-danger" style="padding:80px;">
+		  <h1>Section 3-1</h1>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+	</div>
+	<div id="navthreetwo" class="bg-success" style="padding:80px;">
+		  <h1>Section 3-2</h1>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+	</div>
+	<div id="navthreethree" class="bg-dark" style="padding:80px;">
+		  <h1>Section 3-3</h1>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+	</div>
+	</div>
+	</div>
+	</div>
+</body>
+</html>

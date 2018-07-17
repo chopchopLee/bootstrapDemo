@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Bootstrap Website Example</title>
+		<!-- 新 Bootstrap4 核心 CSS 文件 -->
+	<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.1.0/css/bootstrap.min.css">
+
+	<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+	<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+
+	<!-- popper.min.js 用于弹窗、提示、下拉菜单 -->
+	<script src="https://cdn.bootcss.com/popper.js/1.12.5/umd/popper.min.js"></script>
+
+	<!-- 最新的 Bootstrap4 核心 JavaScript 文件 -->
+	<script src="https://cdn.bootcss.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+	<style>
+		img{
+			
+			height: 200px;
+		}
+	</style>
+</head>
+	<body>
+	 <div  class="container-fluid">
+		<div class="jumbotron text-center"  style="margin-bottom:0;">
+			<h1>我的第一个Bootstrap页面</h1>
+			<p>大概就是按照葫芦画一个瓢吧</p>
+		</div>
+		<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+				<!-- LOGO -->
+				<a href="#" class="navbar-brand">导航</a>
+				<!-- 小屏幕toggler -->
+				<button class="navbar-toggler" data-toggle="collapse" data-target="#collapsebar">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+			<div id="collapsebar" class="navbar-collapse collapse">
+				<ul class="navbar-nav">
+					<li class="navbar-item">
+						<a href="#" class="nav-link">链接</a>
+					</li>
+					<li class="navbar-item">
+						<a href="#" class="nav-link">链接</a>
+					</li>
+					<li class="navbar-item">
+						<a href="#" class="nav-link">链接</a>
+					</li>
+				</ul>
+			 </div>
+		</nav>
+		<div class="container">
+		<div class="row">
+			<div class="col-sm-4">
+				<h1>关于我</h1>
+				<p>我的照片:</p>
+				<img  src="./img/1.jpg" alt="">
+				<p>关于我的一些照片...</p>
+				<h1>一些链接</h1>
+				<ul class="nav nav-pills flex-column">
+					<li class="nav-item">
+						<a href="#" class="nav-link active">链接</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">链接</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link disabled">禁用</a>
+					</li>
+				</ul>
+			</div>
+			<div class="col-sm-8">
+				<h1>标题</h1>
+				<p>副标题</p>
+				<img src="./img/1.jpg" alt="">
+				<p>关于我的一些标题内容</p>
+				<h1>标题</h1>
+				<p>副标题</p>
+				<img src="./img/1.jpg" alt="">
+				<p>关于我的一些标题内容</p>
+			</div>
+			</div>
+			</div>
+			<div class="jumbotron text-center">
+				底部内容
+			</div>
+	 </div>
+	</body>
+</html>
